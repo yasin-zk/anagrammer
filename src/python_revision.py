@@ -17,5 +17,6 @@ def isAnagram():
             return 'Not anagram' #False
         return 'is Anagram' #True
 
+#expected word1 and word2 input : "silent", "listen" returns "is Anagram"
 print(isAnagram())
 
