@@ -31,4 +31,3 @@ while True:
     leaveloop = input("Exit? (Yes/No) ")
     if leaveloop.upper() == "YES":
         break
-
