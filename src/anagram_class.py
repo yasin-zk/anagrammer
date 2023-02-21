@@ -33,7 +33,9 @@ class Anagrams:
         # Loop through each key and value in the anagrams dictionary
         for sorted_word, words in self.anagrams.items():
             if len(words) > 1:
+                
                 if sorted_word not in anagrams:
+                    print(anagrams, sorted_word)
                     anagrams.append(sorted_word)
                 else:
                     duplicates.append(sorted_word)
