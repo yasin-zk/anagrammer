@@ -16,8 +16,9 @@ class AnagramChecker:
             return 'Is Anagram'
         else:
             return 'Not anagram'
-
-
+res = ['Yasin','Yasin2',1337]
+for index, i in enumerate(res):
+    print(i, index)
 while True:
     word1 = input('Anagram 1: ')
     word2 = input('Anagram 2: ')
